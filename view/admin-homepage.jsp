@@ -3,14 +3,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
     <title>Daily Shop | Home</title>
     
     <!-- Font awesome -->
-    <link href="< c:url value='/resources/css/font-awesome.css' />" rel="stylesheet">
+    <link href="<c:url value='/resources/css/font-awesome.css' />" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="<c:url value='/resources/css/bootstrap.css' />"  rel="stylesheet">   
     <!-- SmartMenus jQuery Bootstrap Addon CSS -->
@@ -35,26 +35,19 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  
-
   </head>
-  <body>  
-    <!-- wpf loader Two -->
+   <body>
+   
+   <!-- wpf loader Two -->
     <div id="wpf-loader-two">          
       <div class="wpf-loader-two-inner">
         <span>Loading</span>
       </div>
     </div> 
     <!-- / wpf loader Two -->       
-    <!-- SCROLL TOP BUTTON -->
+ <!-- SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
-    <!-- END SCROLL TOP BUTTON -->
+  <!-- END SCROLL TOP BUTTON -->
 
 
   <!-- Start header section -->
@@ -166,7 +159,7 @@
               <span class="icon-bar"></span>
             </button>          
           </div>
-            <div class="navbar-collapse collapse">
+          <div class="navbar-collapse collapse">
             <!-- Left nav -->
             <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
@@ -198,6 +191,37 @@
                   <li><a href="#">Formal</a></li>                
                   <li><a href="#">Sarees</a></li>
                   <li><a href="#">Shoes</a></li>
+                  <li><a href="#">And more.. <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Sleep Wear</a></li>
+                      <li><a href="#">Sandals</a></li>
+                      <li><a href="#">Loafers</a></li>
+                      <li><a href="#">And more.. <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Rings</a></li>
+                          <li><a href="#">Earrings</a></li>
+                          <li><a href="#">Jewellery Sets</a></li>
+                          <li><a href="#">Lockets</a></li>
+                          <li class="disabled"><a class="disabled" href="#">Disabled item</a></li>                       
+                          <li><a href="#">Jeans</a></li>
+                          <li><a href="#">Polo T-Shirts</a></li>
+                          <li><a href="#">SKirts</a></li>
+                          <li><a href="#">Jackets</a></li>
+                          <li><a href="#">Tops</a></li>
+                          <li><a href="#">Make Up</a></li>
+                          <li><a href="#">Hair Care</a></li>
+                          <li><a href="#">Perfumes</a></li>
+                          <li><a href="#">Skin Care</a></li>
+                          <li><a href="#">Hand Bags</a></li>
+                          <li><a href="#">Single Bags</a></li>
+                          <li><a href="#">Travel Bags</a></li>
+                          <li><a href="#">Wallets & Belts</a></li>                        
+                          <li><a href="#">Sunglases</a></li>
+                          <li><a href="#">Nail</a></li>                       
+                        </ul>
+                      </li>                   
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li><a href="#">Kids <span class="caret"></span></a>
@@ -229,7 +253,22 @@
                   <li><a href="#">Accesories</a></li>                
                 </ul>
               </li>
-              <li><a href="#">Furniture</a></li>           
+              <li><a href="#">Furniture</a></li>            
+               <li><a href="blog-archive.html">Blog <span class="caret"></span></a>
+                <ul class="dropdown-menu">                
+                  <li><a href="blog-archive.html">Blog Style 1</a></li>
+                  <li><a href="blog-archive-2.html">Blog Style 2</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>                
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Pages <span class="caret"></span></a>
+                <ul class="dropdown-menu">                
+                  <li><a href="product.html">Shop Page</a></li>
+                  <li><a href="product-detail.html">Shop Single</a></li>                
+                  <li><a href="404.html">404 Page</a></li>                
+                </ul>
+              </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -241,15 +280,14 @@
  
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
-   <img src="img/sports/shoe banner.jpg" alt="fashion img">
+   <img src="img/fashion/fashion-header-bg-8.jpg" alt="fashion img">
    <div class="aa-catg-head-banner-area">
      <div class="container">
       <div class="aa-catg-head-banner-content">
-        <h2>Adidas NMD</h2>
+        <h2>Administrator Home Page</h2>
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>         
-          <li><a href="#">Product</a></li>
-          <li class="active">Shoes</li>
+          <li><a href="index.html">Home</a></li>                   
+          <li class="active">Administrator</li>
         </ol>
       </div>
      </div>
@@ -257,99 +295,34 @@
   </section>
   <!-- / catg header banner section -->
 
-  <!-- product category -->
-  <section id="aa-product-details">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-product-details-area">
-            <div class="aa-product-details-content">
-              <div class="row">
-                <!-- Modal view slider -->
-                <div class="col-md-5 col-sm-5 col-xs-12">                              
-                  <div class="aa-product-view-slider">                                
-                    <div id="demo-1" class="simpleLens-gallery-container">
-                      <div class="simpleLens-container">
-                        <div class="simpleLens-big-image-container"><a data-lens-image="img/sports/shoe1/large/1.jpg" class="simpleLens-lens-image"><img src="img/sports/shoe1/medium/1.jpg" class="simpleLens-big-image"></a></div>
-                      </div>
-                      <div class="simpleLens-thumbnails-container">
-                          <a data-big-image="img/sports/shoe1/medium/1.jpg" data-lens-image="img/sports/shoe1/large/1.jpg" class="simpleLens-thumbnail-wrapper" href="#">
-                            <img src="img/sports/shoe1/thumnail/1.jpg">
-                          </a>                                    
-                          <a data-big-image="img/sports/shoe1/medium/2.jpg" data-lens-image="img/sports/shoe1/large/2.jpg" class="simpleLens-thumbnail-wrapper" href="#">
-                            <img src="img/sports/shoe1/thumnail/2.jpg">
-                          </a>
-                          <a data-big-image="img/sports/shoe1/medium/3.jpg" data-lens-image="img/sports/shoe1/large/3.jpg" class="simpleLens-thumbnail-wrapper" href="#">
-                            <img src="img/sports/shoe1/thumnail/3.jpg">
-                          </a>
-                      </div>
-                    </div>
-                  </div>
+ <!-- Cart view section -->
+ <section id="cart-view">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="cart-view-area">
+           <div class="cart-view-table">
+             <form action="">
+               <div class="table-responsive">
+                  <table class="table" margin="0">
+                    <thead>
+                      <tr>
+                        <th><input class="aa-cart-view-btn133" type="submit" value="Category"></th>
+                        <th><input class="aa-cart-view-btn133" type="submit" value="Product"></th>
+                        <th><input class="aa-cart-view-btn133" type="submit" value="Supplier"></th>
+                      </tr>
+                    </thead>
+                  </table>
                 </div>
-                <!-- Modal view content -->
-                <div class="col-md-7 col-sm-7 col-xs-12">
-                  <div class="aa-product-view-content">
-                    <h3><input type="text" name="" id="" placeholder="Enter Title Here.."></h3>
-                    <h4><div class="aa-price-block">
-                      <strong>₹</strong><input type="text" name="" id="" placeholder="Enter Price Here..">
-                   </div></h4>
-                   <div class="form-group">                        
-                      <textarea class="form-control" rows="3" placeholder="Enter Description Here.."></textarea>
-                    <h4>Size</h4>
-                    <div class="aa-prod-view-size">
-					  <a href="#">1</a>
-					  <a href="#">2</a>
-					  <a href="#">3</a>
-					  <a href="#">4</a>
-					  <a href="#">5</a>
-					  <a href="#">6</a>
-                      <a href="#">7</a>
-                      <a href="#">8</a>
-                      <a href="#">9</a>
-                      <a href="#">10</a>
-					  <a href="#">11</a>
-					  <a href="#">12</a>
-					  <a href="#">13</a>
-					  <a href="#">14</a>
-                    </div>                      
-                    </div>
-                      <p class="aa-prod-category">
-					  <form>
-					  Category:
-									<select style="max-width:90%;">
-									<option selected="1" value="0">Men</option>
-									<option value="1">Women</option>
-									<option value="2">Shoes</option>
-									<option value="3">Others</option>
-									</select>
-								</form>
-                         
-						
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="aa-product-details-bottom">
-              <ul class="nav nav-tabs" id="myTab2">
-                <li><a href="#description" data-toggle="tab">Description</a></li>
-                </ul>
-			</div>
-              <!-- Tab panes -->
-              <div class="tab-content">
-                <div class="tab-pane fade in active" id="description">
-                  <div class="form-group">                        
-                      <textarea class="form-control" rows="13" placeholder="Please enter product description here..."></textarea>
-                    </div>
-                  </div>
-            <h3 align="center"><button class="aa-browse-btn" type="submit">Submit</button></h3>   
-            <!-- Related product -->
-           
-      </div>
-    </div>
-  </section>
-  <!-- / product category -->
+             </form>
+             <!-- Cart Total view -->
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+ </section>
+ <!-- / Cart view section -->
   <!-- footer -->  
   <footer id="aa-footer">
     <!-- footer bottom -->
@@ -404,8 +377,8 @@
                   <div class="aa-footer-widget">
                     <h3>Contact Us</h3>
                     <address>
-                      <p> NiiT Porur</p>
-                      <p><span class="fa fa-phone"></span>+919840310767</p>
+                      <p> 25 Astor Pl, NY 10003, USA</p>
+                      <p><span class="fa fa-phone"></span>+1 212-982-4589</p>
                       <p><span class="fa fa-envelope"></span>dailyshop@gmail.com</p>
                     </address>
                     <div class="aa-footer-social">
@@ -468,27 +441,27 @@
   </div>
 
 
-    
+  
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="<c:url value='/resources/js/bootstrap.js'/>"></script>  
+  <script src="<c:url value='/resources/js/bootstrap.js' />"></script>  
   <!-- SmartMenus jQuery plugin -->
-  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.js'/>"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.js' />" ></script>
   <!-- SmartMenus jQuery Bootstrap Addon -->
-  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.bootstrap.js'/>"></script>  
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.bootstrap.js' />" ></script>  
   <!-- To Slider JS -->
-  <script src="<c:url value='/resources/js/sequence.js'/>"></script>
-  <script src="<c:url value='/resources/js/sequence-theme.modern-slide-in.js'/>"></script>  
+  <script src="<c:url value='/resources/js/sequence.js' />" ></script>
+  <script src="<c:url value='/resources/js/sequence-theme.modern-slide-in.js'/>" ></script>  
   <!-- Product view slider -->
-  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleGallery.js'/>"></script>
-  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleLens.js'/>"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleGallery.js' />" ></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleLens.js' />" ></script>
   <!-- slick slider -->
-  <script type="text/javascript" src="<c:url value='/resources/js/slick.js'/>"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/slick.js' />" ></script>
   <!-- Price picker slider -->
-  <script type="text/javascript" src="<c:url value='/resoures/js/nouislider.js'/>"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/nouislider.js'/>"></script>
   <!-- Custom js -->
-  <script src="<c:url value='/resources/js/custom.js'/>"></script> 
-
+  <script src="<c:url value='/resources/js/custom.js'/>" ></script> 
+  
   </body>
 </html>
