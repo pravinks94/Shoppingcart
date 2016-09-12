@@ -94,7 +94,7 @@
               <!-- logo  -->
               <div class="aa-logo">
                 <!-- Text based logo -->
-                <a href="index.html">
+                <a href="<c:url value='/index'/>" >
                   <span class="fa fa-shopping-cart"></span>
                   <p>daily<strong>Shop</strong> <span>Your Shopping Partner</span></p>
                 </a>
@@ -174,87 +174,46 @@
             <!-- Left nav -->
             <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#">Men <span class="caret"></span></a>
+              <li><a href="<c:url value='/product-list-men'/>" >Men <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="#">Casual</a></li>
-                  <li><a href="#">Sports</a></li>
-                  <li><a href="#">Formal</a></li>
-                  <li><a href="#">Standard</a></li>                                                
-                  <li><a href="#">T-Shirts</a></li>
-                  <li><a href="#">Shirts</a></li>
-                  <li><a href="#">Jeans</a></li>
-                  <li><a href="#">Trousers</a></li>
-                  <li><a href="#">And more.. <span class="caret"></span></a>
+                  <li><a href="<c:url value='/product-list-men'/>" >Casual</a></li>
+                  <li><a href="<c:url value='/product-list-men'/>" >Sports</a></li>
+                  <li><a href="<c:url value='/product-list-men'/>" >Formal</a></li>
+                  <li><a href="<c:url value='/product-list-men'/>" >Standard</a></li>                                                
+                  <li><a href="<c:url value='/product-list-men'/>" >T-Shirts</a></li>
+                  <li><a href="<c:url value='/product-list-men'/>" >Shirts</a></li>
+                  <li><a href="<c:url value='/product-list-men'/>" >Jeans</a></li>
+                  <li><a href="<c:url value='/product-list-men'/>" >Trousers</a></li>
+                  <li><a href="<c:url value='/product-list-men'/>" >And more.. <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#">Sleep Wear</a></li>
-                      <li><a href="#">Sandals</a></li>
-                      <li><a href="#">Loafers</a></li>                                      
+                      <li><a href="<c:url value='/product-list-men'/>" >Sleep Wear</a></li>
+                      <li><a href="<c:url value='/product-list-men'/>" >Sandals</a></li>
+                      <li><a href="<c:url value='/product-list-men'/>" >Loafers</a></li>                                      
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Women <span class="caret"></span></a>
+              <li><a href="<c:url value='/product-list-women'/>" >Women <span class="caret"></span></a>
                 <ul class="dropdown-menu">  
-                  <li><a href="#">Kurta & Kurti</a></li>                                                                
-                  <li><a href="#">Trousers</a></li>              
-                  <li><a href="#">Casual</a></li>
-                  <li><a href="#">Sports</a></li>
-                  <li><a href="#">Formal</a></li>                
-                  <li><a href="#">Sarees</a></li>
-                  <li><a href="#">Shoes</a></li>
-              <!--    <li><a href="#">And more.. <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Sleep Wear</a></li>
-                      <li><a href="#">Sandals</a></li>
-                      <li><a href="#">Loafers</a></li>
-                      <li><a href="#">And more.. <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Rings</a></li>
-                          <li><a href="#">Earrings</a></li>
-                          <li><a href="#">Jewellery Sets</a></li>
-                          <li><a href="#">Lockets</a></li>
-                          <li class="disabled"><a class="disabled" href="#">Disabled item</a></li>                       
-                          <li><a href="#">Jeans</a></li>
-                          <li><a href="#">Polo T-Shirts</a></li>
-                          <li><a href="#">SKirts</a></li>
-                          <li><a href="#">Jackets</a></li>
-                          <li><a href="#">Tops</a></li>
-                          <li><a href="#">Make Up</a></li>
-                          <li><a href="#">Hair Care</a></li>
-                          <li><a href="#">Perfumes</a></li>
-                          <li><a href="#">Skin Care</a></li>
-                          <li><a href="#">Hand Bags</a></li>
-                          <li><a href="#">Single Bags</a></li>
-                          <li><a href="#">Travel Bags</a></li>
-                          <li><a href="#">Wallets & Belts</a></li>                        
-                          <li><a href="#">Sunglases</a></li>
-                          <li><a href="#">Nail</a></li>                       
-                        </ul>
-                      </li>                   
-                    </ul>
-                  </li> -->
+                  <li><a href="<c:url value='/product-list-women'/>">Kurta & Kurti</a></li>                                                                
+                  <li><a href="<c:url value='/product-list-women'/>">Trousers</a></li>              
+                  <li><a href="<c:url value='/product-list-women'/>">Casual</a></li>
+                  <li><a href="<c:url value='/product-list-women'/>">Sports</a></li>
+                  <li><a href="<c:url value='/product-list-women'/>">Formal</a></li>                
+                  <li><a href="<c:url value='/product-list-women'/>">Sarees</a></li>
+                  <li><a href="<c:url value='/product-list-women'/>">Shoes</a></li>
                 </ul>
               </li>
-              <li><a href="#">Kids <span class="caret"></span></a>
+              <li><a href="<c:url value='/product-list-shoes'/>">Shoes <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="#">Casual</a></li>
-                  <li><a href="#">Sports</a></li>
-                  <li><a href="#">Formal</a></li>
-                  <li><a href="#">Standard</a></li>                                                
-                  <li><a href="#">T-Shirts</a></li>
-                  <li><a href="#">Shirts</a></li>
-                  <li><a href="#">Jeans</a></li>
-                  <li><a href="#">Trousers</a></li>
-                  <li><a href="#">And more.. <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Sleep Wear</a></li>
-                      <li><a href="#">Sandals</a></li>
-                      <li><a href="#">Loafers</a></li>                                      
-                    </ul>
-                  </li>
+                  <li><a href="<c:url value='/product-list-shoes'/>">Leather</a></li>
+                  <li><a href="<c:url value='/product-list-shoes'/>">Sports</a></li>
+                  <li><a href="<c:url value='/product-list-shoes'/>">Running</a></li>
+                  <li><a href="<c:url value='/product-list-shoes'/>">Football</a></li>                                                
+                  <li><a href="<c:url value='/product-list-shoes'/>">Loafers</a></li>
+                  <li><a href="<c:url value='/product-list-shoes'/>">Sandals</a></li>  
                 </ul>
               </li>
-              <li><a href="#">Sports</a></li>
              <li><a href="contact.html">Contact</a></li>
               </ul>
           </div><!--/.nav-collapse -->
@@ -272,7 +231,7 @@
             <!-- single slide item -->
             <li>
               <div class="seq-model">
-                <img data-seq src="<c:url value="/resources/img/slider/diesel-img-2.jpg" />" alt="Men slide img" />
+                <img data-seq src="<c:url value="/resources/img/slider/diesel-img-2.jpg"/>" alt="Men slide img" />
               </div>
               <div class="seq-title">
                <span data-seq>Save Up to 75% Off</span>                
@@ -1274,7 +1233,7 @@
             <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
             <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
             <div class="aa-register-now">
-              Don't have an account?<a href="account.html">Register now!</a>
+              Don't have an account?<a href="<c:url value='/account'/>" >Register now!</a>
             </div>
           </form>
         </div>                        
