@@ -1,30 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Daily Shop | Contact</title>
+    <title>Daily Shop | Home</title>
     
     <!-- Font awesome -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="<c:url value='/resources/css/font-awesome.css' />" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">   
+    <link href="<c:url value='/resources/css/bootstrap.css' />"  rel="stylesheet">   
     <!-- SmartMenus jQuery Bootstrap Addon CSS -->
-    <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="<c:url value='/resources/css/jquery.smartmenus.bootstrap.css' />" rel="stylesheet">
     <!-- Product view slider -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.simpleLens.css">    
+    <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/jquery.simpleLens.css' />">    
     <!-- slick slider -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/slick.css' />">
     <!-- price picker slider -->
-    <link rel="stylesheet" type="text/css" href="css/nouislider.css">
+    <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/nouislider.css' />" >
     <!-- Theme color -->
-    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
+    <link id="switcher" href="<c:url value='/resources/css/theme-color/default-theme.css' />" rel="stylesheet">
+    <!-- <link id="switcher" href="css/theme-color/bridge-theme.css" rel="stylesheet"> -->
     <!-- Top Slider CSS -->
-    <link href="css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
+    <link href="<c:url value='/resources/css/sequence-theme.modern-slide-in.css' />" rel="stylesheet" media="all">
 
     <!-- Main style sheet -->
-    <link href="css/style.css" rel="stylesheet">    
+    <link href="<c:url value='/resources/css/style.css' />" rel="stylesheet">    
 
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -37,19 +41,21 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+  
 
   </head>
-  <body> 
-    <!-- wpf loader Two -->
+  <body>
+   
+   <!-- wpf loader Two -->
     <div id="wpf-loader-two">          
       <div class="wpf-loader-two-inner">
         <span>Loading</span>
       </div>
     </div> 
     <!-- / wpf loader Two -->       
-    <!-- SCROLL TOP BUTTON -->
+ <!-- SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
-    <!-- END SCROLL TOP BUTTON -->
+  <!-- END SCROLL TOP BUTTON -->
 
 
   <!-- Start header section -->
@@ -185,7 +191,7 @@
     <!-- / header bottom  -->
   </header>
   <!-- / header section -->
-<!-- menu -->
+ <!-- menu -->
   <section id="menu">
     <div class="container">
       <div class="menu-area">
@@ -250,86 +256,99 @@
       </div>       
     </div>
   </section>
-  <!-- / menu --> 
+  <!-- / menu -->
+ 
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
    <img src="img/fashion/fashion-header-bg-8.jpg" alt="fashion img">
    <div class="aa-catg-head-banner-area">
      <div class="container">
       <div class="aa-catg-head-banner-content">
-        <h2>Contact</h2>
+        <h2>Cart Page</h2>
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>         
-          <li class="active">Contact</li>
+          <li><a href="index.html">Home</a></li>                   
+          <li class="active">Cart</li>
         </ol>
       </div>
      </div>
    </div>
   </section>
   <!-- / catg header banner section -->
-<!-- start contact section -->
- <section id="aa-contact">
+
+ <!-- Cart view section -->
+ <section id="cart-view">
    <div class="container">
      <div class="row">
        <div class="col-md-12">
-         <div class="aa-contact-area">
-           <div class="aa-contact-top">
-             <h2>We are wating to assist you..</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos.</p>
-           </div>
-           <!-- contact map -->
-           <div class="aa-contact-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.3714257064535!2d-86.7550931378034!3d34.66757706940219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8862656f8475892d%3A0xf3b1aee5313c9d4d!2sHuntsville%2C+AL+35813%2C+USA!5e0!3m2!1sen!2sbd!4v1445253385137" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-           </div>
-           <!-- Contact address -->
-           <div class="aa-contact-address">
-             <div class="row">
-               <div class="col-md-8">
-                 <div class="aa-contact-address-left">
-                   <form class="comments-form contact-form" action="">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="text" placeholder="Your Name" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="email" placeholder="Email" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                     <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="text" placeholder="Subject" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="text" placeholder="Company" class="form-control">
-                        </div>
-                      </div>
-                    </div>                  
-                     
-                    <div class="form-group">                        
-                      <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                    </div>
-                    <button class="aa-secondary-btn">Send</button>
-                  </form>
-                 </div>
-               </div>
-               <div class="col-md-4">
-                 <div class="aa-contact-address-right">
-                   <address>
-                     <h4>DailyShop</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum modi dolor facilis! Nihil error, eius.</p>
-                     <p><span class="fa fa-home"></span>Huntsville, AL 35813, USA</p>
-                     <p><span class="fa fa-phone"></span>+ 021.343.7575</p>
-                     <p><span class="fa fa-envelope"></span>Email: support@dailyshop.com</p>
-                   </address>
-                 </div>
-               </div>
+         <div class="cart-view-area">
+           <div class="cart-view-table">
+             <form action="">
+               <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a class="remove" href="#"><fa class="fa fa-close"></fa></a></td>
+                        <td><a href="#"><img src="img/man/polo-shirt-1.png" alt="img"></a></td>
+                        <td><a class="aa-cart-title" href="#">Polo T-Shirt</a></td>
+                        <td>$250</td>
+                        <td><input class="aa-cart-quantity" type="number" value="1"></td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <td><a class="remove" href="#"><fa class="fa fa-close"></fa></a></td>
+                        <td><a href="#"><img src="img/man/polo-shirt-2.png" alt="img"></a></td>
+                        <td><a class="aa-cart-title" href="#">Polo T-Shirt</a></td>
+                        <td>$150</td>
+                        <td><input class="aa-cart-quantity" type="number" value="1"></td>
+                        <td>$150</td>
+                      </tr>
+                      <tr>
+                        <td><a class="remove" href="#"><fa class="fa fa-close"></fa></a></td>
+                        <td><a href="#"><img src="img/man/polo-shirt-3.png" alt="img"></a></td>
+                        <td><a class="aa-cart-title" href="#">Polo T-Shirt</a></td>
+                        <td>$50</td>
+                        <td><input class="aa-cart-quantity" type="number" value="1"></td>
+                        <td>$50</td>
+                      </tr>
+                      <tr>
+                        <td colspan="6" class="aa-cart-view-bottom">
+                          <div class="aa-cart-coupon">
+                            <input class="aa-coupon-code" type="text" placeholder="Coupon">
+                            <input class="aa-cart-view-btn" type="submit" value="Apply Coupon">
+                          </div>
+                          <input class="aa-cart-view-btn" type="submit" value="Update Cart">
+                        </td>
+                      </tr>
+                      </tbody>
+                  </table>
+                </div>
+             </form>
+             <!-- Cart Total view -->
+             <div class="cart-view-total">
+               <h4>Cart Totals</h4>
+               <table class="aa-totals-table">
+                 <tbody>
+                   <tr>
+                     <th>Subtotal</th>
+                     <td>$450</td>
+                   </tr>
+                   <tr>
+                     <th>Total</th>
+                     <td>$450</td>
+                   </tr>
+                 </tbody>
+               </table>
+               <a href="#" class="aa-cart-view-btn">Proced to Checkout</a>
              </div>
            </div>
          </div>
@@ -337,9 +356,11 @@
      </div>
    </div>
  </section>
+ <!-- / Cart view section -->
+
 
   <!-- Subscribe section -->
-  <!-- <section id="aa-subscribe">
+  <section id="aa-subscribe">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -354,7 +375,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- / Subscribe section -->
 
   <!-- footer -->  
@@ -475,27 +496,27 @@
   </div>
 
 
+    
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.js"></script>  
+  <script src="<c:url value='/resources/js/bootstrap.js' />"></script>  
   <!-- SmartMenus jQuery plugin -->
-  <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.js' />" ></script>
   <!-- SmartMenus jQuery Bootstrap Addon -->
-  <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>  
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.bootstrap.js' />" ></script>  
   <!-- To Slider JS -->
-  <script src="js/sequence.js"></script>
-  <script src="js/sequence-theme.modern-slide-in.js"></script>  
+  <script src="<c:url value='/resources/js/sequence.js' />" ></script>
+  <script src="<c:url value='/resources/js/sequence-theme.modern-slide-in.js'/>" ></script>  
   <!-- Product view slider -->
-  <script type="text/javascript" src="js/jquery.simpleGallery.js"></script>
-  <script type="text/javascript" src="js/jquery.simpleLens.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleGallery.js' />" ></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleLens.js' />" ></script>
   <!-- slick slider -->
-  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/slick.js' />" ></script>
   <!-- Price picker slider -->
-  <script type="text/javascript" src="js/nouislider.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/nouislider.js'/>"></script>
   <!-- Custom js -->
-  <script src="js/custom.js"></script> 
+  <script src="<c:url value='/resources/js/custom.js'/>" ></script> 
   
-
   </body>
 </html>

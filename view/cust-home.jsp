@@ -66,7 +66,9 @@
           <div class="col-md-12">
             <div class="aa-header-top-area">
               <!-- start header top left -->
-            <!-- / header top left -->
+              <div class="aa-header-top-left">
+              </div>
+              <!-- / header top left -->
               <div class="aa-header-top-right">
                 <ul class="aa-head-top-nav-right">
                   <li><a href="account.html">My Account</a></li>
@@ -92,53 +94,13 @@
               <!-- logo  -->
               <div class="aa-logo">
                 <!-- Text based logo -->
-                <a href="<c:url value='/index'/>" >
+                <a href="index.html">
                   <span class="fa fa-shopping-cart"></span>
                   <p>daily<strong>Shop</strong> <span>Your Shopping Partner</span></p>
                 </a>
                 <!-- img based logo -->
                 <!-- <a href="index.html"><img src="img/logo.jpg" alt="logo img"></a> -->
               </div>
-              <!-- / logo  -->
-               <!-- cart box -->
-              <div class="aa-cartbox">
-                <a class="aa-cart-link" href="#">
-                  <span class="fa fa-shopping-basket"></span>
-                  <span class="aa-cart-title">SHOPPING CART</span>
-                  <span class="aa-cart-notify">2</span>
-                </a>
-                <div class="aa-cartbox-summary">
-                  <ul>
-                    <li>
-                      <a class="aa-cartbox-img" href="#"><img src="img/woman-small-2.jpg" alt="img"></a>
-                      <div class="aa-cartbox-info">
-                        <h4><a href="#">Product Name</a></h4>
-                        <p>1 x $250</p>
-                      </div>
-                      <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
-                    </li>
-                    <li>
-                      <a class="aa-cartbox-img" href="#"><img src="img/woman-small-1.jpg" alt="img"></a>
-                      <div class="aa-cartbox-info">
-                        <h4><a href="#">Product Name</a></h4>
-                        <p>1 x $250</p>
-                      </div>
-                      <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
-                    </li>                    
-                    <li>
-                      <span class="aa-cartbox-total-title">
-                        Total
-                      </span>
-                      <span class="aa-cartbox-total-price">
-                        $500
-                      </span>
-                    </li>
-                  </ul>
-                  <a class="aa-cartbox-checkout aa-primary-btn" href="#">Checkout</a>
-                </div>
-              </div>
-              <!-- / cart box -->
-              <!-- search box -->
               <div class="aa-search-box">
                 <form action="">
                   <input type="text" name="" id="" placeholder="Search here ex. 'man' ">
@@ -172,48 +134,105 @@
             <!-- Left nav -->
             <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
-              <li><a href="<c:url value='/product-list-men'/>" >Men <span class="caret"></span></a>
+              <li><a href="#">Men <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-men'/>" >Casual</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Sports</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Formal</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Standard</a></li>                                                
-                  <li><a href="<c:url value='/product-list-men'/>" >T-Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Jeans</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Trousers</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >And more.. <span class="caret"></span></a>
+                  <li><a href="#">Casual</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Formal</a></li>
+                  <li><a href="#">Standard</a></li>                                                
+                  <li><a href="#">T-Shirts</a></li>
+                  <li><a href="#">Shirts</a></li>
+                  <li><a href="#">Jeans</a></li>
+                  <li><a href="#">Trousers</a></li>
+                  <li><a href="#">And more.. <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="<c:url value='/product-list-men'/>" >Sleep Wear</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Sandals</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Loafers</a></li>                                      
+                      <li><a href="#">Sleep Wear</a></li>
+                      <li><a href="#">Sandals</a></li>
+                      <li><a href="#">Loafers</a></li>                                      
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-women'/>" >Women <span class="caret"></span></a>
+              <li><a href="#">Women <span class="caret"></span></a>
                 <ul class="dropdown-menu">  
-                  <li><a href="<c:url value='/product-list-women'/>">Kurta & Kurti</a></li>                                                                
-                  <li><a href="<c:url value='/product-list-women'/>">Trousers</a></li>              
-                  <li><a href="<c:url value='/product-list-women'/>">Casual</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Formal</a></li>                
-                  <li><a href="<c:url value='/product-list-women'/>">Sarees</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Shoes</a></li>
+                  <li><a href="#">Kurta & Kurti</a></li>                                                                
+                  <li><a href="#">Trousers</a></li>              
+                  <li><a href="#">Casual</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Formal</a></li>                
+                  <li><a href="#">Sarees</a></li>
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">And more.. <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Sleep Wear</a></li>
+                      <li><a href="#">Sandals</a></li>
+                      <li><a href="#">Loafers</a></li>
+                      <li><a href="#">And more.. <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Rings</a></li>
+                          <li><a href="#">Earrings</a></li>
+                          <li><a href="#">Jewellery Sets</a></li>
+                          <li><a href="#">Lockets</a></li>
+                          <li class="disabled"><a class="disabled" href="#">Disabled item</a></li>                       
+                          <li><a href="#">Jeans</a></li>
+                          <li><a href="#">Polo T-Shirts</a></li>
+                          <li><a href="#">SKirts</a></li>
+                          <li><a href="#">Jackets</a></li>
+                          <li><a href="#">Tops</a></li>
+                          <li><a href="#">Make Up</a></li>
+                          <li><a href="#">Hair Care</a></li>
+                          <li><a href="#">Perfumes</a></li>
+                          <li><a href="#">Skin Care</a></li>
+                          <li><a href="#">Hand Bags</a></li>
+                          <li><a href="#">Single Bags</a></li>
+                          <li><a href="#">Travel Bags</a></li>
+                          <li><a href="#">Wallets & Belts</a></li>                        
+                          <li><a href="#">Sunglases</a></li>
+                          <li><a href="#">Nail</a></li>                       
+                        </ul>
+                      </li>                   
+                    </ul>
+                  </li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-shoes'/>">Shoes <span class="caret"></span></a>
+              <li><a href="#">Kids <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Leather</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Running</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Football</a></li>                                                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Loafers</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sandals</a></li>  
+                  <li><a href="#">Casual</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Formal</a></li>
+                  <li><a href="#">Standard</a></li>                                                
+                  <li><a href="#">T-Shirts</a></li>
+                  <li><a href="#">Shirts</a></li>
+                  <li><a href="#">Jeans</a></li>
+                  <li><a href="#">Trousers</a></li>
+                  <li><a href="#">And more.. <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Sleep Wear</a></li>
+                      <li><a href="#">Sandals</a></li>
+                      <li><a href="#">Loafers</a></li>                                      
+                    </ul>
+                  </li>
                 </ul>
               </li>
-             <li><a href="contact.html">Contact</a></li>
-              </ul>
+              <li><a href="#">Sports</a></li>
+             <li><a href="#">Digital <span class="caret"></span></a>
+                <ul class="dropdown-menu">                
+                  <li><a href="#">Camera</a></li>
+                  <li><a href="#">Mobile</a></li>
+                  <li><a href="#">Tablet</a></li>
+                  <li><a href="#">Laptop</a></li>                                                
+                  <li><a href="#">Accesories</a></li>                
+                </ul>
+              </li>            
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Pages <span class="caret"></span></a>
+                <ul class="dropdown-menu">                
+                  <li><a href="product.html">Shop Page</a></li>
+                  <li><a href="product-detail.html">Shop Single</a></li>                
+                  <li><a href="404.html">404 Page</a></li>                
+                </ul>
+              </li>
+            </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>       
@@ -229,7 +248,7 @@
             <!-- single slide item -->
             <li>
               <div class="seq-model">
-                <img data-seq src="<c:url value="/resources/img/slider/diesel-img-2.jpg"/>" alt="Men slide img" />
+                <img data-seq src="<c:url value="/resources/img/slider/diesel-img-2.jpg" />" alt="Men slide img" />
               </div>
               <div class="seq-title">
                <span data-seq>Save Up to 75% Off</span>                
@@ -303,7 +322,7 @@
               <div class="col-md-5 no-padding">                
                 <div class="aa-promo-left">
                   <div class="aa-promo-banner">                    
-                    <img src="<c:url value='/resources/img/promo-banner-1.jpg' />" alt="img">                    
+                    <img src="img/promo-banner-1.jpg" alt="img">                    
                     <div class="aa-prom-content">
                       <span>75% Off</span>
                       <h4><a href="#">For Women</a></h4>                      
@@ -316,7 +335,7 @@
                 <div class="aa-promo-right">
                   <div class="aa-single-promo-right">
                     <div class="aa-promo-banner">                      
-                      <img src="<c:url value='/resources/img/promo-banner-3.jpg'/>" alt="img">                      
+                      <img src="img/promo-banner-3.jpg" alt="img">                      
                       <div class="aa-prom-content">
                         <span>Exclusive Item</span>
                         <h4><a href="#">For Men</a></h4>                        
@@ -325,7 +344,7 @@
                   </div>
                   <div class="aa-single-promo-right">
                     <div class="aa-promo-banner">                      
-                      <img src="<c:url value='/resources/img/promo-banner-2.jpg'/>" alt="img">                      
+                      <img src="img/promo-banner-2.jpg" alt="img">                      
                       <div class="aa-prom-content">
                         <span>Sale Off</span>
                         <h4><a href="#">On Shoes</a></h4>                        
@@ -334,7 +353,7 @@
                   </div>
                   <div class="aa-single-promo-right">
                     <div class="aa-promo-banner">                      
-                      <img src="<c:url value='/resources/img/promo-banner-4.jpg'/>" alt="img">                      
+                      <img src="img/promo-banner-4.jpg" alt="img">                      
                       <div class="aa-prom-content">
                         <span>New Arrivals</span>
                         <h4><a href="#">For Kids</a></h4>                        
@@ -343,7 +362,7 @@
                   </div>
                   <div class="aa-single-promo-right">
                     <div class="aa-promo-banner">                      
-                      <img src="<c:url value='/resources/img/promo-banner-5.jpg'/>" alt="img">                      
+                      <img src="img/promo-banner-5.jpg" alt="img">                      
                       <div class="aa-prom-content">
                         <span>25% Off</span>
                         <h4><a href="#">For Bags</a></h4>                        
@@ -401,7 +420,7 @@
                               <span class="aa-product-price">$45.50</span>
                             </figcaption>
                           </figure>
-                          <!-- product badge -->
+                              <!-- product badge -->
                            <span class="aa-badge aa-sold-out" href="#">Sold Out!</span>
                         </li>
                         <!-- start single product item -->
@@ -442,7 +461,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="<c:url value="/resources/img/man/polo-shirt-6.png" />" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="<c:url value="resources/img/man/polo-shirt-6.png" />" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
@@ -453,7 +472,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="<c:url value="/resources/img/man/polo-shirt-2.png" />" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="<c:url value="img/man/polo-shirt-2.png" />" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
@@ -709,6 +728,24 @@
                                           </a>
                                       </div>
                                   </div>
+                                  <div class="simpleLens-thumbnails-container">
+                                      <a href="#" class="simpleLens-thumbnail-wrapper"
+                                         data-lens-image="img/view-slider/large/polo-shirt-1.png"
+                                         data-big-image="img/view-slider/medium/polo-shirt-1.png">
+                                          <img src="img/view-slider/thumbnail/polo-shirt-1.png">
+                                      </a>                                    
+                                      <a href="#" class="simpleLens-thumbnail-wrapper"
+                                         data-lens-image="img/view-slider/large/polo-shirt-3.png"
+                                         data-big-image="img/view-slider/medium/polo-shirt-3.png">
+                                          <img src="img/view-slider/thumbnail/polo-shirt-3.png">
+                                      </a>
+
+                                      <a href="#" class="simpleLens-thumbnail-wrapper"
+                                         data-lens-image="img/view-slider/large/polo-shirt-4.png"
+                                         data-big-image="img/view-slider/medium/polo-shirt-4.png">
+                                          <img src="img/view-slider/thumbnail/polo-shirt-4.png">
+                                      </a>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -721,6 +758,32 @@
                                   <p class="aa-product-avilability">Avilability: <span>In stock</span></p>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis animi, veritatis quae repudiandae quod nulla porro quidem, itaque quis quaerat!</p>
+                                <h4>Size</h4>
+                                <div class="aa-prod-view-size">
+                                  <a href="#">S</a>
+                                  <a href="#">M</a>
+                                  <a href="#">L</a>
+                                  <a href="#">XL</a>
+                                </div>
+                                <div class="aa-prod-quantity">
+                                  <form action="">
+                                    <select name="" id="">
+                                      <option value="0" selected="1">1</option>
+                                      <option value="1">2</option>
+                                      <option value="2">3</option>
+                                      <option value="3">4</option>
+                                      <option value="4">5</option>
+                                      <option value="5">6</option>
+                                    </select>
+                                  </form>
+                                  <p class="aa-prod-category">
+                                    Category: <a href="#">Polo T-Shirt</a>
+                                  </p>
+                                </div>
+                                <div class="aa-prod-view-bottom">
+                                  <a href="#" class="aa-add-to-cart-btn"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                                  <a href="#" class="aa-add-to-cart-btn">View Details</a>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -778,6 +841,10 @@
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
                       </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>                            
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-sale" href="#">SALE!</span>
                     </li>
@@ -790,7 +857,11 @@
                           <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
                           <span class="aa-product-price">$45.50</span>
                         </figcaption>
-                      </figure>
+                      </figure>                      
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                        <span class="aa-badge aa-sold-out" href="#">Sold Out!</span>
                     </li>
@@ -804,6 +875,10 @@
                         <h4 class="aa-product-title"><a href="#">T-Shirt</a></h4>
                         <span class="aa-product-price">$45.50</span>
                       </figcaption>
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                        <span class="aa-badge aa-sold-out" href="#">Sold Out!</span>
                     </li>
@@ -817,6 +892,10 @@
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
                       </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                     </li>
                     <!-- start single product item -->
                     <li>
@@ -827,7 +906,11 @@
                           <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                      
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                     </li>
                     <!-- start single product item -->
                     <li>
@@ -838,7 +921,11 @@
                           <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-hot" href="#">HOT!</span>
                     </li>    
@@ -851,7 +938,11 @@
                           <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-hot" href="#">HOT!</span>
                     </li> 
@@ -864,7 +955,11 @@
                           <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>                            
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-sale" href="#">SALE!</span>
                     </li>                                                                                   
@@ -885,7 +980,11 @@
                           <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>                            
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-sale" href="#">SALE!</span>
                     </li>
@@ -900,6 +999,9 @@
                         </figcaption>
                       </figure>                      
                       <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                        <span class="aa-badge aa-sold-out" href="#">Sold Out!</span>
                     </li>
@@ -913,6 +1015,10 @@
                         <h4 class="aa-product-title"><a href="#">T-Shirt</a></h4>
                         <span class="aa-product-price">$45.50</span>
                       </figcaption>
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                        <span class="aa-badge aa-sold-out" href="#">Sold Out!</span>
                     </li>
@@ -925,7 +1031,11 @@
                           <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                     </li>
                     <!-- start single product item -->
                     <li>
@@ -936,7 +1046,11 @@
                           <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                      
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                     </li>
                     <!-- start single product item -->
                     <li>
@@ -967,7 +1081,7 @@
                     <!-- start single product item -->
                     <li>
                       <figure>
-                        <a class="aa-product-img" href="#"><img src="<c:url value='/resources/img/women/girl-1.png'/>" alt="polo shirt img"></a>
+                        <a class="aa-product-img" href="#"><img src="img/women/girl-1.png" alt="polo shirt img"></a>
                         <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                          <figcaption>
                           <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
@@ -988,7 +1102,7 @@
                     <!-- start single product item -->
                     <li>
                       <figure>
-                        <a class="aa-product-img" href="#"><img src="<c:url value='/resources/img/man/polo-shirt-2.png'/>" alt="polo shirt img"></a>
+                        <a class="aa-product-img" href="#"><img src="img/man/polo-shirt-2.png" alt="polo shirt img"></a>
                         <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                          <figcaption>
                           <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
@@ -1021,67 +1135,91 @@
                         <h4 class="aa-product-title"><a href="#">T-Shirt</a></h4>
                         <span class="aa-product-price">$45.50</span>
                       </figcaption>
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                        <span class="aa-badge aa-sold-out" href="#">Sold Out!</span>
                     </li>
                     <!-- start single product item -->
                     <li>
                       <figure>
-                        <a class="aa-product-img" href="#"><img src="<c:url value='/resources/img/women/girl-3.png'/>" alt="polo shirt img"></a>
+                        <a class="aa-product-img" href="#"><img src="img/women/girl-3.png" alt="polo shirt img"></a>
                         <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                          <figcaption>
                           <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                     </li>
                     <!-- start single product item -->
                     <li>
                       <figure>
-                        <a class="aa-product-img" href="#"><img src="<c:url value='/resources/img/man/polo-shirt-1.png'/>" alt="polo shirt img"></a>
+                        <a class="aa-product-img" href="#"><img src="img/man/polo-shirt-1.png" alt="polo shirt img"></a>
                         <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                         <figcaption>
                           <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                      
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                     </li>
                     <!-- start single product item -->
                     <li>
                       <figure>
-                        <a class="aa-product-img" href="#"><img src="<c:url value='/resources/img/women/girl-4.png'/>" alt="polo shirt img"></a>
+                        <a class="aa-product-img" href="#"><img src="img/women/girl-4.png" alt="polo shirt img"></a>
                         <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                         <figcaption>
                           <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-hot" href="#">HOT!</span>
                     </li>    
                     <!-- start single product item -->
                     <li>
                       <figure>
-                        <a class="aa-product-img" href="#"><img src="<c:url value='/resources/img/man/polo-shirt-4.png' />" alt="polo shirt img"></a>
+                        <a class="aa-product-img" href="#"><img src="img/man/polo-shirt-4.png" alt="polo shirt img"></a>
                         <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                          <figcaption>
                           <h4 class="aa-product-title"><a href="#">Polo T-Shirt</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
-                      </figure>
+                      </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-hot" href="#">HOT!</span>
                     </li> 
                     <!-- start single product item -->
                     <li>
                       <figure>
-                        <a class="aa-product-img" href="#"><img src="<c:url value='/resources/img/women/girl-1.png'/>" alt="polo shirt img"></a>
+                        <a class="aa-product-img" href="#"><img src="img/women/girl-1.png" alt="polo shirt img"></a>
                         <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                          <figcaption>
                           <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
                           <span class="aa-product-price">$45.50</span><span class="aa-product-price"><del>$65.50</del></span>
                         </figcaption>
                       </figure>                     
+                      <div class="aa-product-hvr-content">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                        <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span class="fa fa-search"></span></a>                            
+                      </div>
                       <!-- product badge -->
                       <span class="aa-badge aa-sale" href="#">SALE!</span>
                     </li>                                                                                   
@@ -1140,17 +1278,17 @@
         <div class="col-md-12">
           <div class="aa-client-brand-area">
             <ul class="aa-client-brand-slider">
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-java.png'/>" alt="java img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-jquery.png'/>" alt="jquery img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-html5.png'/>" alt="html5 img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-css3.png'/>" alt="css3 img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-wordpress.png'/>" alt="wordPress img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-joomla.png'/>" alt="joomla img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-java.png'/>" alt="java img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-jquery.png'/>" alt="jquery img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-html5.png'/>" alt="html5 img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-css3.png'/>" alt="css3 img"></a></li>
-              <li><a href="#"><img src="<c:url value='/resources/img/client-brand-wordpress.png'/>" alt="wordPress img"></a></li>
+              <li><a href="#"><img src="img/client-brand-java.png" alt="java img"></a></li>
+              <li><a href="#"><img src="img/client-brand-jquery.png" alt="jquery img"></a></li>
+              <li><a href="#"><img src="img/client-brand-html5.png" alt="html5 img"></a></li>
+              <li><a href="#"><img src="img/client-brand-css3.png" alt="css3 img"></a></li>
+              <li><a href="#"><img src="img/client-brand-wordpress.png" alt="wordPress img"></a></li>
+              <li><a href="#"><img src="img/client-brand-joomla.png" alt="joomla img"></a></li>
+              <li><a href="#"><img src="img/client-brand-java.png" alt="java img"></a></li>
+              <li><a href="#"><img src="img/client-brand-jquery.png" alt="jquery img"></a></li>
+              <li><a href="#"><img src="img/client-brand-html5.png" alt="html5 img"></a></li>
+              <li><a href="#"><img src="img/client-brand-css3.png" alt="css3 img"></a></li>
+              <li><a href="#"><img src="img/client-brand-wordpress.png" alt="wordPress img"></a></li>
             </ul>
           </div>
         </div>
@@ -1169,19 +1307,41 @@
             <div class="row">
               <div class="col-md-3 col-sm-6">
                 <div class="aa-footer-widget">
-                <h4>   </h4>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="aa-footer-widget">
-                  </div>
-                <h3>   </h3>
+                  <h3>Main Menu</h3>
+                  <ul class="aa-footer-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="aa-footer-widget">
                   <div class="aa-footer-widget">
-              <h3>   </h3>      
+                    <h3>Knowledge Base</h3>
+                    <ul class="aa-footer-nav">
+                      <li><a href="#">Delivery</a></li>
+                      <li><a href="#">Returns</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Discount</a></li>
+                      <li><a href="#">Special Offer</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>Useful Links</h3>
+                    <ul class="aa-footer-nav">
+                      <li><a href="#">Site Map</a></li>
+                      <li><a href="#">Search</a></li>
+                      <li><a href="#">Advanced Search</a></li>
+                      <li><a href="#">Suppliers</a></li>
+                      <li><a href="#">FAQ</a></li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -1191,7 +1351,7 @@
                     <h3>Contact Us</h3>
                     <address>
                       <p> NiiT Porur,Chennai, India</p>
-                      <p><span class="fa fa-phone"></span>+919840310767</p>
+                      <p><span class="fa fa-phone"></span>+9198400000</p>
                       <p><span class="fa fa-envelope"></span>pravin986@gmail.com</p>
                     </address>
                     </div>
@@ -1208,7 +1368,7 @@
       <div class="container">
         <div class="row">
         <div class="col-md-12">
-        <h3>  </h3></div>
+        </div>
       </div>
       </div>
     </div>
@@ -1231,7 +1391,7 @@
             <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
             <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
             <div class="aa-register-now">
-              Don't have an account?<a href="<c:url value='/account'/>" >Register now!</a>
+              Don't have an account?<a href="account.html">Register now!</a>
             </div>
           </form>
         </div>                        
