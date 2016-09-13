@@ -145,7 +145,7 @@
     <!-- / header bottom  -->
   </header>
   <!-- / header section -->
-  <!-- menu -->
+    <!-- menu -->
   <section id="menu">
     <div class="container">
       <div class="menu-area">
@@ -162,48 +162,48 @@
           <div class="navbar-collapse collapse">
             <!-- Left nav -->
             <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="<c:url value='/product-list-men'/>" >Men <span class="caret"></span></a>
+              <li><a href="<c:url value='/' />" >Home</a></li>
+              <li><a href="<c:url value='/cust-product-list-men'/>" >Men <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-men'/>" >Casual</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Sports</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Formal</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Standard</a></li>                                                
-                  <li><a href="<c:url value='/product-list-men'/>" >T-Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Jeans</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Trousers</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >And more.. <span class="caret"></span></a>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Casual</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Formal</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Standard</a></li>                                                
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >T-Shirts</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Shirts</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Jeans</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Trousers</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >And more.. <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="<c:url value='/product-list-men'/>" >Sleep Wear</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Sandals</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Loafers</a></li>                                      
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Sleep Wear</a></li>
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Sandals</a></li>
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Loafers</a></li>                                      
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-women'/>" >Women <span class="caret"></span></a>
+              <li><a href="<c:url value='/cust-product-list-women'/>" >Women <span class="caret"></span></a>
                 <ul class="dropdown-menu">  
-                  <li><a href="<c:url value='/product-list-women'/>">Kurta & Kurti</a></li>                                                                
-                  <li><a href="<c:url value='/product-list-women'/>">Trousers</a></li>              
-                  <li><a href="<c:url value='/product-list-women'/>">Casual</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Formal</a></li>                
-                  <li><a href="<c:url value='/product-list-women'/>">Sarees</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Shoes</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Kurta & Kurti</a></li>                                                                
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Trousers</a></li>              
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Casual</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Formal</a></li>                
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Sarees</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Shoes</a></li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-shoes'/>">Shoes <span class="caret"></span></a>
+              <li><a href="<c:url value='/cust-product-list-shoes'/>">Shoes <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Leather</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Running</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Football</a></li>                                                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Loafers</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sandals</a></li>  
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Leather</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Running</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Football</a></li>                                                
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Loafers</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Sandals</a></li>  
                 </ul>
               </li>
-             <li><a href="contact.html">Contact</a></li>
+             <li><a href="<c:url value='/contact' />" >Contact</a></li>
               </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -211,7 +211,6 @@
     </div>
   </section>
   <!-- / menu -->
- 
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
    <img src="img/fashion/fashion-header-bg-8.jpg" alt="fashion img">
@@ -395,7 +394,7 @@
             <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
             <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
             <div class="aa-register-now">
-              Don't have an account?<a href="account.html">Register now!</a>
+              Don't have an account?<a href="<c:url value='/account' />">Register now!</a>
             </div>
           </form>
         </div>                        
@@ -408,7 +407,7 @@
 <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="<c:url value='/resources/js/bootstrap.js' />"></script>  
+  <script src="<c:url value='/resources/js/bootstrap.js' />"></script>
   <!-- SmartMenus jQuery plugin -->
   <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.js' />" ></script>
   <!-- SmartMenus jQuery Bootstrap Addon -->

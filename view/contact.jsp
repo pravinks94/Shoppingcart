@@ -1,30 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Daily Shop | Contact</title>
+    <title>Daily Shop | Home</title>
     
     <!-- Font awesome -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="<c:url value='/resources/css/font-awesome.css' />" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">   
+    <link href="<c:url value='/resources/css/bootstrap.css' />"  rel="stylesheet">   
     <!-- SmartMenus jQuery Bootstrap Addon CSS -->
-    <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="<c:url value='/resources/css/jquery.smartmenus.bootstrap.css' />" rel="stylesheet">
     <!-- Product view slider -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.simpleLens.css">    
+    <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/jquery.simpleLens.css' />">    
     <!-- slick slider -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/slick.css' />">
     <!-- price picker slider -->
-    <link rel="stylesheet" type="text/css" href="css/nouislider.css">
+    <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/nouislider.css' />" >
     <!-- Theme color -->
-    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
+    <link id="switcher" href="<c:url value='/resources/css/theme-color/default-theme.css' />" rel="stylesheet">
+    <!-- <link id="switcher" href="css/theme-color/bridge-theme.css" rel="stylesheet"> -->
     <!-- Top Slider CSS -->
-    <link href="css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
+    <link href="<c:url value='/resources/css/sequence-theme.modern-slide-in.css' />" rel="stylesheet" media="all">
 
     <!-- Main style sheet -->
-    <link href="css/style.css" rel="stylesheet">    
+    <link href="<c:url value='/resources/css/style.css' />" rel="stylesheet">    
 
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -37,6 +41,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+  
 
   </head>
   <body> 
@@ -60,45 +65,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="aa-header-top-area">
-              <!-- start header top left -->
-              <div class="aa-header-top-left">
-                <!-- start language -->
-              <!--  <div class="aa-language">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                      <img src="img/flag/english.jpg" alt="english flag">ENGLISH
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#"><img src="img/flag/french.jpg" alt="">FRENCH</a></li>
-                      <li><a href="#"><img src="img/flag/english.jpg" alt="">ENGLISH</a></li>
-                    </ul>
-                  </div>
-                </div> -->
-                <!-- / language -->
-
-                <!-- start currency -->
-               <!-- <div class="aa-currency">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                      <i class="fa fa-usd"></i>USD
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#"><i class="fa fa-euro"></i>EURO</a></li>
-                      <li><a href="#"><i class="fa fa-jpy"></i>YEN</a></li>
-                    </ul>
-                  </div>
-                </div> -->
-                <!-- / currency -->
-                <!-- start cellphone -->
-                <!-- <div class="cellphone hidden-xs">
-                  <p><span class="fa fa-phone"></span>00-62-658-658</p>
-                </div> -->
-                <!-- / cellphone -->
-              </div>
-              <!-- / header top left -->
-              <div class="aa-header-top-right">
+          <div class="aa-header-top-right">
                 <ul class="aa-head-top-nav-right">
                   <li><a href="account.html">My Account</a></li>
                   <li class="hidden-xs"><a href="wishlist.html">Wishlist</a></li>
@@ -123,7 +90,7 @@
               <!-- logo  -->
               <div class="aa-logo">
                 <!-- Text based logo -->
-                <a href="index.html">
+                <a href="<c:url value='/' />">
                   <span class="fa fa-shopping-cart"></span>
                   <p>daily<strong>Shop</strong> <span>Your Shopping Partner</span></p>
                 </a>
@@ -185,7 +152,7 @@
     <!-- / header bottom  -->
   </header>
   <!-- / header section -->
-<!-- menu -->
+  <!-- menu -->
   <section id="menu">
     <div class="container">
       <div class="menu-area">
@@ -202,55 +169,55 @@
           <div class="navbar-collapse collapse">
             <!-- Left nav -->
             <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="<c:url value='/product-list-men'/>" >Men <span class="caret"></span></a>
+              <li><a href="<c:url value='/' />" >Home</a></li>
+              <li><a href="<c:url value='/cust-product-list-men'/>" >Men <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-men'/>" >Casual</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Sports</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Formal</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Standard</a></li>                                                
-                  <li><a href="<c:url value='/product-list-men'/>" >T-Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Jeans</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Trousers</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >And more.. <span class="caret"></span></a>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Casual</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Formal</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Standard</a></li>                                                
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >T-Shirts</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Shirts</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Jeans</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Trousers</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >And more.. <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="<c:url value='/product-list-men'/>" >Sleep Wear</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Sandals</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Loafers</a></li>                                      
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Sleep Wear</a></li>
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Sandals</a></li>
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Loafers</a></li>                                      
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-women'/>" >Women <span class="caret"></span></a>
+              <li><a href="<c:url value='/cust-product-list-women'/>" >Women <span class="caret"></span></a>
                 <ul class="dropdown-menu">  
-                  <li><a href="<c:url value='/product-list-women'/>">Kurta & Kurti</a></li>                                                                
-                  <li><a href="<c:url value='/product-list-women'/>">Trousers</a></li>              
-                  <li><a href="<c:url value='/product-list-women'/>">Casual</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Formal</a></li>                
-                  <li><a href="<c:url value='/product-list-women'/>">Sarees</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Shoes</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Kurta & Kurti</a></li>                                                                
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Trousers</a></li>              
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Casual</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Formal</a></li>                
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Sarees</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Shoes</a></li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-shoes'/>">Shoes <span class="caret"></span></a>
+              <li><a href="<c:url value='/cust-product-list-shoes'/>">Shoes <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Leather</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Running</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Football</a></li>                                                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Loafers</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sandals</a></li>  
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Leather</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Running</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Football</a></li>                                                
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Loafers</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Sandals</a></li>  
                 </ul>
               </li>
-             <li><a href="contact.html">Contact</a></li>
+             <li><a href="<c:url value='/contact' />" >Contact</a></li>
               </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>       
     </div>
   </section>
-  <!-- / menu --> 
+  <!-- / menu -->
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
    <img src="img/fashion/fashion-header-bg-8.jpg" alt="fashion img">
@@ -259,7 +226,7 @@
       <div class="aa-catg-head-banner-content">
         <h2>Contact</h2>
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>         
+          <li><a href="<c:url value='/' />">Home</a></li>         
           <li class="active">Contact</li>
         </ol>
       </div>
@@ -275,8 +242,7 @@
          <div class="aa-contact-area">
            <div class="aa-contact-top">
              <h2>We are wating to assist you..</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos.</p>
-           </div>
+          </div>
            <!-- contact map -->
            <div class="aa-contact-map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.3714257064535!2d-86.7550931378034!3d34.66757706940219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8862656f8475892d%3A0xf3b1aee5313c9d4d!2sHuntsville%2C+AL+35813%2C+USA!5e0!3m2!1sen!2sbd!4v1445253385137" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -288,34 +254,10 @@
                  <div class="aa-contact-address-left">
                    <form class="comments-form contact-form" action="">
                     <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="text" placeholder="Your Name" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="email" placeholder="Email" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                     <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="text" placeholder="Subject" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">                        
-                          <input type="text" placeholder="Company" class="form-control">
-                        </div>
-                      </div>
-                    </div>                  
                      
-                    <div class="form-group">                        
-                      <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                        
+                  
                     </div>
-                    <button class="aa-secondary-btn">Send</button>
                   </form>
                  </div>
                </div>
@@ -323,9 +265,9 @@
                  <div class="aa-contact-address-right">
                    <address>
                      <h4>DailyShop</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum modi dolor facilis! Nihil error, eius.</p>
-                     <p><span class="fa fa-home"></span>Huntsville, AL 35813, USA</p>
-                     <p><span class="fa fa-phone"></span>+ 021.343.7575</p>
+                     <p></p>
+                     <p><span class="fa fa-home"></span>Niit Porur</p>
+                     <p><span class="fa fa-phone"></span>+919840310767</p>
                      <p><span class="fa fa-envelope"></span>Email: support@dailyshop.com</p>
                    </address>
                  </div>
@@ -337,26 +279,6 @@
      </div>
    </div>
  </section>
-
-  <!-- Subscribe section -->
-  <!-- <section id="aa-subscribe">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-subscribe-area">
-            <h3>Subscribe our newsletter </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, velit!</p>
-            <form action="" class="aa-subscribe-form">
-              <input type="email" name="" id="" placeholder="Enter your Email">
-              <input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- / Subscribe section -->
-
   <!-- footer -->  
   <footer id="aa-footer">
     <!-- footer bottom -->
@@ -411,8 +333,8 @@
                   <div class="aa-footer-widget">
                     <h3>Contact Us</h3>
                     <address>
-                      <p> 25 Astor Pl, NY 10003, USA</p>
-                      <p><span class="fa fa-phone"></span>+1 212-982-4589</p>
+                      <p>Niit Porur,Chennai</p>
+                      <p><span class="fa fa-phone"></span>+91 9840310767</p>
                       <p><span class="fa fa-envelope"></span>dailyshop@gmail.com</p>
                     </address>
                     <div class="aa-footer-social">
@@ -436,7 +358,6 @@
         <div class="row">
         <div class="col-md-12">
           <div class="aa-footer-bottom-area">
-            <p>Designed by <a href="http://www.markups.io/">MarkUps.io</a></p>
             <div class="aa-footer-payment">
               <span class="fa fa-cc-mastercard"></span>
               <span class="fa fa-cc-visa"></span>
@@ -466,7 +387,7 @@
             <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
             <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
             <div class="aa-register-now">
-              Don't have an account?<a href="account.html">Register now!</a>
+              Don't have an account?<a href="<c:url value='/account' />">Register now!</a>
             </div>
           </form>
         </div>                        
@@ -478,24 +399,23 @@
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.js"></script>  
+  <script src="<c:url value='/resources/js/bootstrap.js' />"></script>
   <!-- SmartMenus jQuery plugin -->
-  <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.js' />" ></script>
   <!-- SmartMenus jQuery Bootstrap Addon -->
-  <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>  
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.smartmenus.bootstrap.js' />" ></script>  
   <!-- To Slider JS -->
-  <script src="js/sequence.js"></script>
-  <script src="js/sequence-theme.modern-slide-in.js"></script>  
+  <script src="<c:url value='/resources/js/sequence.js' />" ></script>
+  <script src="<c:url value='/resources/js/sequence-theme.modern-slide-in.js'/>" ></script>  
   <!-- Product view slider -->
-  <script type="text/javascript" src="js/jquery.simpleGallery.js"></script>
-  <script type="text/javascript" src="js/jquery.simpleLens.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleGallery.js' />" ></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/jquery.simpleLens.js' />" ></script>
   <!-- slick slider -->
-  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/slick.js' />" ></script>
   <!-- Price picker slider -->
-  <script type="text/javascript" src="js/nouislider.js"></script>
+  <script type="text/javascript" src="<c:url value='/resources/js/nouislider.js'/>"></script>
   <!-- Custom js -->
-  <script src="js/custom.js"></script> 
-  
+  <script src="<c:url value='/resources/js/custom.js'/>" ></script>
 
   </body>
 </html>

@@ -65,44 +65,6 @@
         <div class="row">
           <div class="col-md-12">
             <div class="aa-header-top-area">
-              <!-- start header top left -->
-              <div class="aa-header-top-left">
-                <!-- start language -->
-				<!-- <div class="aa-language">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                      <img src="img/flag/english.jpg" alt="english flag">ENGLISH
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#"><img src="img/flag/french.jpg" alt="">FRENCH</a></li>
-                      <li><a href="#"><img src="img/flag/english.jpg" alt="">ENGLISH</a></li>
-                    </ul>
-                  </div>
-                </div> -->
-                <!-- / language -->
-
-                <!-- start currency -->
-               <!-- <div class="aa-currency">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                      <i class="fa fa-usd"></i>USD
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#"><i class="fa fa-euro"></i>EURO</a></li>
-                      <li><a href="#"><i class="fa fa-jpy"></i>YEN</a></li>
-                    </ul>
-                  </div>
-                </div> -->
-                <!-- / currency -->
-                <!-- start cellphone -->
-               <!-- <div class="cellphone hidden-xs">
-                  <p><span class="fa fa-phone"></span>00-62-658-658</p>
-                </div> -->
-                <!-- / cellphone -->
-              </div>
-              <!-- / header top left -->
               <div class="aa-header-top-right">
                 <ul class="aa-head-top-nav-right">
                   <li><a href="account.html">My Account</a></li>
@@ -128,7 +90,7 @@
               <!-- logo  -->
               <div class="aa-logo">
                 <!-- Text based logo -->
-                <a href="index.html">
+                <a href="<c:url value='/' />" ">
                   <span class="fa fa-shopping-cart"></span>
                   <p>daily<strong>Shop</strong> <span>Your Shopping Partner</span></p>
                 </a>
@@ -190,7 +152,7 @@
     <!-- / header bottom  -->
   </header>
   <!-- / header section -->
-  <!-- menu -->
+    <!-- menu -->
   <section id="menu">
     <div class="container">
       <div class="menu-area">
@@ -207,48 +169,48 @@
           <div class="navbar-collapse collapse">
             <!-- Left nav -->
             <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="<c:url value='/product-list-men'/>" >Men <span class="caret"></span></a>
+              <li><a href="<c:url value='/' />" >Home</a></li>
+              <li><a href="<c:url value='/cust-product-list-men'/>" >Men <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-men'/>" >Casual</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Sports</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Formal</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Standard</a></li>                                                
-                  <li><a href="<c:url value='/product-list-men'/>" >T-Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Shirts</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Jeans</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >Trousers</a></li>
-                  <li><a href="<c:url value='/product-list-men'/>" >And more.. <span class="caret"></span></a>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Casual</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Formal</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Standard</a></li>                                                
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >T-Shirts</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Shirts</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Jeans</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >Trousers</a></li>
+                  <li><a href="<c:url value='/cust-product-list-men'/>" >And more.. <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="<c:url value='/product-list-men'/>" >Sleep Wear</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Sandals</a></li>
-                      <li><a href="<c:url value='/product-list-men'/>" >Loafers</a></li>                                      
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Sleep Wear</a></li>
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Sandals</a></li>
+                      <li><a href="<c:url value='/cust-product-list-men'/>" >Loafers</a></li>                                      
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-women'/>" >Women <span class="caret"></span></a>
+              <li><a href="<c:url value='/cust-product-list-women'/>" >Women <span class="caret"></span></a>
                 <ul class="dropdown-menu">  
-                  <li><a href="<c:url value='/product-list-women'/>">Kurta & Kurti</a></li>                                                                
-                  <li><a href="<c:url value='/product-list-women'/>">Trousers</a></li>              
-                  <li><a href="<c:url value='/product-list-women'/>">Casual</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Formal</a></li>                
-                  <li><a href="<c:url value='/product-list-women'/>">Sarees</a></li>
-                  <li><a href="<c:url value='/product-list-women'/>">Shoes</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Kurta & Kurti</a></li>                                                                
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Trousers</a></li>              
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Casual</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Formal</a></li>                
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Sarees</a></li>
+                  <li><a href="<c:url value='/cust-product-list-women'/>">Shoes</a></li>
                 </ul>
               </li>
-              <li><a href="<c:url value='/product-list-shoes'/>">Shoes <span class="caret"></span></a>
+              <li><a href="<c:url value='/cust-product-list-shoes'/>">Shoes <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Leather</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sports</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Running</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Football</a></li>                                                
-                  <li><a href="<c:url value='/product-list-shoes'/>">Loafers</a></li>
-                  <li><a href="<c:url value='/product-list-shoes'/>">Sandals</a></li>  
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Leather</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Sports</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Running</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Football</a></li>                                                
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Loafers</a></li>
+                  <li><a href="<c:url value='/cust-product-list-shoes'/>">Sandals</a></li>  
                 </ul>
               </li>
-             <li><a href="contact.html">Contact</a></li>
+             <li><a href="<c:url value='/contact' />" >Contact</a></li>
               </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -701,7 +663,7 @@
             <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
             <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
             <div class="aa-register-now">
-              Don't have an account?<a href="account.html">Register now!</a>
+              Don't have an account?<a href="<c:url value='/account'/>">Register now!</a>
             </div>
           </form>
         </div>                        
